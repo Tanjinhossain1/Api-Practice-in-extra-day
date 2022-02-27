@@ -8,6 +8,7 @@ function loadPlayers(){
     gifUse('block')
     if(input.value == ''){
         alert('not work type somthig')
+        gifUse('none')
     }
     else{
         fetch(`https://www.thesportsdb.com/api/v1/json/2/searchplayers.php?p=${inputValue}
